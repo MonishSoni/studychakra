@@ -1,0 +1,848 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+
+    /* color---------- */
+    --primarycolor:#52C0FF;
+    --secondarycolor:#3F3D56;
+    --tertiarycolor:#F4F4F4;
+    --quaternarycolor:#ebeced;
+    --pentarycolor:#F48404;
+
+    /* fonts--------- */
+
+    --font1: 'Anton', sans-serif;
+    --font2: 'B612 Mono', monospace;
+    --font3: 'Oxygen', sans-serif;
+    --font4: 'Roboto', sans-serif;
+
+}
+
+
+
+/* nav----------------------------------- */
+
+#home .nav-item{
+    margin-right: 8px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: #141414;
+    font-family: var(--font3);
+}
+
+#home .nav-item .nav-link:hover{
+    color: var(--primarycolor);
+    transition: 0.3s ease-in-out;
+}
+
+#home .nav-item .active {
+    font-weight: 500;
+    color: #52C0FF;
+}
+
+
+/* home ------------------------------------*/
+
+#home{
+    padding: 1% 2% 1% 2%;
+}
+
+.hbox h1{
+    font-family: var(--font1);
+    letter-spacing: 5px;
+    padding: 15px ;
+    font-size: 52px;
+    margin: 100px 0px 0px 0px;
+}
+
+ span{
+    color: var(--primarycolor);
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.hbox h4 span{
+    color: var(--primarycolor);
+    font-weight: 700;
+}
+
+.hbox h4{
+    font-family: var(--font3);
+    letter-spacing: 1px;
+    font-size: 16px;
+    padding: 10px 15px;
+    line-height: 22px;
+}
+
+.hlogo{
+    width: 220px;
+}
+
+.hbot img{
+    width: 400px;
+    padding: 25px;
+    margin-top: 50px;
+    animation: floatY 3s ease-in-out infinite alternate-reverse;
+}
+
+.heroimg img{
+    width: 750px;
+    padding: 25px;
+    margin-top: 45px;
+    animation: floatY 2s ease-in-out infinite alternate-reverse;
+}
+
+
+
+
+/* about ---------------------*/
+
+#aboutus{
+    padding: 4% 8%;
+    font-family: var(--font3);
+}
+#about{
+    padding: 4% 8%;
+    font-family: var(--font4);
+}
+
+.aimg img{
+    width: 450px;
+}
+
+.aimg h3{   
+    margin-bottom: 25px;
+    font-family: var(--font1);
+    font-weight: 100;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+}
+
+.aimg p,.asbox p{
+    
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: #141414;
+    font-family: var(--font3);
+}
+.abox{
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.asbox{
+    padding: 25px;
+    margin: 15px;
+    width: 180px;
+    height: 170px;
+    background-color: var(--tertiarycolor);
+    border-radius: 8px;
+}
+
+.asbox p i{
+    font-size: 38px;
+    color: var(--primarycolor);
+}
+
+.a1img,.a2img{
+    width: 400px;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: floatY 2s ease-in-out infinite alternate-reverse;
+}
+
+.aubox{
+    width: 450px;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.autbox{
+    padding: 4%;
+    text-align: justify;
+}
+
+.keytitle h3{
+    font-family: var(--font1);
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    margin-bottom: 35px;
+}
+
+.featurerow{
+    padding:2%;
+}
+
+.accordion{
+    padding: 4%;
+    border-radius: 12px;
+    background-color: var(--quaternarycolor);
+}
+
+.accordion-header button{
+    background-color:#ffffff;
+    color:var(--primarycolor);
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: var(--font3);
+}
+
+.accordion-body{
+    background-color:#ebeced;
+    font-family: var(--font3);
+}
+
+/* mentors ----------------------------*/
+
+#mentors{
+    padding: 4% 8%;
+}
+.faculty{
+    padding: 4%;
+}
+.mbox img{
+    width: 250px;
+    margin-bottom: 15px;
+    background-color: var(--primarycolor);
+    clip-path: circle();
+}
+.dbox{
+    padding:4%;
+    margin: 15px 8px;
+    border-radius: 8px;
+    background-color:var(--tertiarycolor);
+}
+
+.dbox h5{
+    color: #141414;
+    margin-bottom: 15px;
+    font-family: var(--font4);
+    font-weight: 500;
+}
+.dbox p{
+    color:#141414;
+    font-family: var(--font3);
+}
+
+.teamtitle h3{
+    margin-top: 15px;
+    font-family: var(--font1);
+    font-weight: 100;
+    font-size: 32px;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+}
+
+/* benefits----------------------------- */
+
+
+#benefits{
+    padding: 4% 8% 0% 8%;
+    font-family: var(--font4);
+}
+
+#benefits .row{
+    margin-bottom:50px;
+}
+
+.bbox2,.bbox1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bimg img,.bimg1 img{
+    width:550px;
+
+}
+
+.bbox h3{
+    margin-bottom: 25px;
+    font-family: var(--font1);
+    font-weight: 100;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    line-height: 35px;
+}
+
+.bbox .picon{
+    padding: 10px 10px 0px 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.bbox p{
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    color: #141414;
+    text-align:justify;
+    font-family: var(--font3);
+}
+
+.bbox i{
+    font-size: 38px;
+    color: var(--primarycolor);
+    margin-right: 10px;
+}
+
+.bbox3 .bname{
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0px;
+}
+.bbox3 .bname span{
+    font-weight: 700;
+}
+.bbox3 p{
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    color: #141414;
+    font-family: var(--font3);
+
+}
+
+.bbox3 .layer i{
+    font-size: 45px;
+    margin-top: 15px;
+    color: var(--primarycolor);
+}
+
+.bbox3 i{
+    color: var(--secondarycolor);
+    margin-right: 5px;
+}
+
+/* our courses----------------------- */
+
+#course{
+    padding: 4% 8%;
+}
+
+.crow{
+    padding: 0% 6%;
+}
+.coursetitle h3{   
+    margin-bottom: 35px;
+    font-family: var(--font1);
+    font-weight: 100;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+}
+
+.coursebox img{
+    border-radius: 5px;
+}
+
+.coursebox{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 15px;
+    padding: 4%;
+    font-family: var(--font4);
+    background-color: var(--tertiarycolor);
+    border-radius: 8px;
+}
+
+
+.coursebox h6{
+    font-weight: 700;
+    margin-top: 10px;
+    letter-spacing: 1px;
+    font-family: var(--font3);
+}
+
+.coursebox p{
+    margin-bottom: 8px;
+}
+
+.coursebox .watch{
+    border-top: 1px solid var(--primarycolor);
+    font-family: var(--font3);
+    padding-top:5px ;
+    font-weight: 500;
+    color: #141414;
+    letter-spacing:1px;
+}
+
+.coursebox i{
+    color: var(--primarycolor);
+    font-size: 28px;
+    float: right;
+}
+
+.coursebox i:hover{
+    color: var(--secondarycolor);
+    font-size: 28px;
+    transition: 0.3s ease-in-out;
+    transform: rotate(90deg); 
+
+}
+
+.seemore{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.seemore a{
+    text-decoration: none;
+    margin-top: 15px;
+    color: var(--primarycolor);
+    font-weight: 700;
+    font-family: var(--font3);
+}
+
+.seemore a:hover{
+    color: var(--secondarycolor);
+    transition: 0.3s ease-in-out;
+}
+
+/* ask questions styling-------------- */
+
+#ask{
+    padding: 4% 8%;
+}
+
+#ask .row{
+    background-color:var(--tertiarycolor);
+    border-radius: 5px;
+    padding: 4% 2%;
+}
+
+#ask h3{
+    margin-bottom: 25px;
+    font-family: var(--font1);
+    font-weight: 100;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+}
+
+#ask p{
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: #141414;
+    font-family: var(--font3);
+}
+
+.askbox{
+    padding: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.askbtn a{
+    text-decoration: none;
+    font-family: var(--font3);
+    font-weight: 700;
+    letter-spacing: 1px;
+    border: 1.5px solid var(--primarycolor);
+    border-radius: 5px;
+    color: var(--primarycolor);
+    background-color: #ffffff;
+    padding: 15px;
+}
+
+.askbtn a:hover{
+    background-color: var(--primarycolor);
+    color: #ffffff;
+    transition: 0.3s ease;
+}
+
+/* footer styling---------------- */
+
+.footicon i{
+   color: var(--primarycolor);
+   margin-bottom: 15px;
+}
+
+#foot{
+    padding: 4% 4% 2% 4%;
+    background-color:#141414;
+}
+
+.foottext{
+    font-family: var(--font3);
+    color: #ffffff;
+    padding: 4%;
+}
+.footsocial li,.footabout li,.footnav li{
+    list-style-type: none;
+    margin: 10px;
+}
+
+.footsocial h5,.footabout h5,.footnav h5{
+    color: var(--primarycolor);
+    font-family: var(--font1);
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
+
+.footabout li a,.footnav li a{
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: var(--tertiarycolor);
+    font-family: var(--font3);
+    font-weight: 500;
+}
+
+.footsocial ul{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    padding: 0;
+}
+
+.footsocial ul li a i{
+    font-size: 24px;
+    color: var(--tertiarycolor);
+}
+
+.footsocial ul li a i:hover{
+    color: var(--primarycolor);
+    transition: 0.3s ease-in-out;
+}
+
+.copy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#000000;
+    /* border-top: 1px solid var(--tertiarycolor); */
+}
+
+.copy p{
+    padding: 10px 0 0 0;
+    font-family: var(--font3);
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color:var(--tertiarycolor);
+}
+
+/* under construction------------------------------------ */
+
+.undercons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 86vh;
+    }
+.undercons h5{
+    font-family: var(--font3);
+    font-weight: 500;
+    color: #141414;
+}
+.consimg img{
+        padding: 4%;
+        width: 700px;
+        animation: floatY 2s ease-in-out infinite alternate-reverse;
+    }
+
+/* contact------------------------------------------------  */
+
+
+#contact{
+    padding: 4% 2%;
+    font-family: var(--font3);
+
+}
+.formimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+}
+
+.contactimg img{
+    width: 700px;
+    padding:8%;
+}
+
+.formcol{
+    padding:0%;
+}
+
+.formbox{
+    color: var(--primarycolor);
+    background-color:#F4F4F4;
+    padding: 4%;
+    margin: 15px 60px ;
+    border-radius: 8px; 
+}
+
+.formbox .ipfield {
+    border: none;
+}
+.formbtn{
+    color: var(--primarycolor);
+    background-color:#ffffff;
+    outline: none;
+    border: 1.5px solid var(--primarycolor);
+    border-radius: 3px;
+    padding: 7px 15px;
+    letter-spacing: 1px;
+}
+
+.formbtn:hover{
+    background-color: var(--primarycolor);
+    color: #ffffff;
+    transition: 0.3s ease;
+}
+
+.cbox{
+    padding: 25px;
+}
+
+#contact i{
+    color: var(--primarycolor);
+    background-color: var(--secondarycolor);
+    padding: 15px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+#contact h4{
+    margin-bottom: 15px;
+    font-size: 22px;
+    font-family: var(--font3);
+    font-weight: 700;
+}
+
+.cbox p{
+    font-family: var(--font3);
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+#contact a{
+    text-decoration: none;
+    color: #141414;
+    font-family: var(--font4);
+}
+
+#contact address{
+    font-family: var(--font4);
+    padding:0px 35px;
+}
+
+#contact i:hover{
+    color:var(--secondarycolor);
+    background-color: var(--primarycolor);
+    transition: 0.3s ease;
+}
+
+
+
+/* animation-------------------------------------------------- */
+
+
+@keyframes floatY{
+
+    0%{
+        transform: translateY(-8px);
+    }
+    
+    100%{
+        transform: translateY(8px);
+    }
+}
+
+
+/* media queries----------------------------------------------- */
+
+ 
+@media screen and (max-width:319px){
+
+    /* home------------------------------- */
+
+    .hlogo{
+        width: 175px;
+    }
+
+    .navbar p{
+        margin-top: 10px;
+    }
+
+    .hbox h1{
+        font-size: 38px;
+        margin-top: 45px;
+        letter-spacing: 3px;
+    }
+
+    .hbox h4{
+        font-size: 15px;
+    }
+
+    .hbot img{
+        margin-top: 15px;
+        margin-bottom: 30px;
+        animation: floatY 2s ease-in-out infinite alternate-reverse;
+    }
+
+    .heroimg img{
+        display: none;
+    }
+
+
+    /* course---------------------------- */
+
+    .crow{
+        padding: 0% 2%;
+    }
+
+    .formbox{
+        font-size: 14px;
+        padding: 6%;
+        margin:10px;
+    }
+
+    .cbox h4{
+        font-size: 20px;
+    }
+
+ /* about------------------ */
+
+        .accordion{
+            padding: 4%;
+        }
+    
+        .accordion-header button{
+            font-size: 14px;
+        }
+    
+        #aboutus{
+            padding: 2%;
+        }
+    
+        .accordion-body{
+            font-size: 16px;
+        }
+    
+}
+
+
+@media screen and (min-width:320px) and (max-width:767px){
+
+    /* home----------------- */
+
+    .hbox h1{
+        letter-spacing: 5px;
+        font-size: 42px;
+        margin: 40px 0px 10px 0px;
+    }
+
+    .hbox h4{
+        padding: 0px 15px;
+    }
+
+    .hbot img{
+      margin-top: 15px;
+      margin-bottom: 25px;
+      animation: floatY 2s ease-in-out infinite alternate-reverse;
+    }
+
+    .heroimg img{
+        display: none;
+    }
+
+    #home{
+        padding:2%;
+    }
+
+    .hlogo{
+       width: 185px;
+    }
+
+    /* about------------------ */
+
+    .accordion{
+        padding: 4%;
+    }
+
+    .accordion-header button{
+        font-size: 14px;
+    }
+
+    #aboutus{
+        padding: 2%;
+    }
+
+    .accordion-body{
+        font-size: 16px;
+    }
+
+    .formbox{
+        font-size: 16px;
+        padding: 4%;
+        margin:30px;
+    }
+
+
+    /* benefits--------------- */
+
+    .bimg img{
+        display: none;
+    }
+
+    #benefits .row{
+        margin-bottom: 50px;
+    }
+
+    /* course */
+
+    .crow{
+        padding: 0% 2%;
+    }
+
+
+}
+
+@media screen and (min-width:768px) and (max-width:1024px){
+
+    .heroimg img{
+        padding: 5px;
+        margin-top: 120px;
+    }
+
+    .hbot img{
+        margin-top: 0px;
+        margin-bottom: 25px;
+    }
+
+    .hbox h1{
+        margin-top: 50px;
+        font-size: 48px;
+        letter-spacing: 3px;
+    }
+
+    .hlogo{
+        width: 190px;
+    }
+
+    #home .nav-item{
+        margin-right: 5px;
+    }
+
+    .formbox{
+        font-size: 16px;
+        padding: 4%;
+        margin:30px;
+    }
+
+
+}
+
+
